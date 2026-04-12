@@ -1,5 +1,5 @@
 package bloop.instruction;
-// import bloop.environment.Environment;
+import bloop.environment.Environment;
 
 public interface Instruction {
 
