@@ -1,7 +1,7 @@
 package bloop.instruction;
 
-import AOOP_BloopProject.environment.Environment;
-import AOOP_BloopProject.expression.Expression;
+import bloop.Environment;
+import bloop.expression.Expression;
 import java.util.List;
 
 public class RepeatInstruction implements Instruction {
