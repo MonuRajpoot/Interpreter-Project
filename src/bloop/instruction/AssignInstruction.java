@@ -1,8 +1,6 @@
 package bloop.instruction;
-
-import java.beans.Expression;
-
-import bloop.Environment;
+import bloop.environment.Environment;
+import bloop.expression.Expression;
 
 
 public class AssignInstruction implements Instruction {
