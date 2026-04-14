@@ -1,7 +1,6 @@
 package bloop.instruction;
 import bloop.Environment;
 import bloop.expression.Expression;
-import bloop.Environment.expression;
 import java.util.List;
 
 public class IfInstruction implements Instruction {

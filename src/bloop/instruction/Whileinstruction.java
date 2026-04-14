@@ -1,6 +1,6 @@
 package bloop.instruction;
 import bloop.expression.Expression;
-import bloop.environment.Environment;
+import bloop.Environment;
 import java.util.List;
 
 public class WhileInstruction implements Instruction {

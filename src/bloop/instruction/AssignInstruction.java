@@ -1,5 +1,5 @@
 package bloop.instruction;
-import bloop.environment.Environment;
+import bloop.Environment;
 import bloop.expression.Expression;
 
 
@@ -24,7 +24,7 @@ public class AssignInstruction implements Instruction {
 
         // step 1 — evaluate the expression to get the actual value
         // for example BinaryOpNode(x + y * 2) becomes 16.0
-        Object value = ((Object) expression).evaluate(env);
+        Object value = ((Expression) expression).evaluate(env);
 
         // step 2 — store the result in the environment under the variable name
         // after this, any instruction that reads "result" will get 16.0

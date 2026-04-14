@@ -1,6 +1,6 @@
 package bloop.instruction;
 
-import bloop.environment.Environment;
+import bloop.Environment;
 import bloop.expression.Expression;
 
 public class PrintInstruction implements Instruction {
