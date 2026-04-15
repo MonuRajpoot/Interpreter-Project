@@ -3,7 +3,7 @@ import bloop.Environment;
 import bloop.instruction.Instruction;
 import bloop.tokenizer.Token;
 import bloop.parser.Parser;
-import bloop.Tokenizerrr.Tokenizer;
+import bloop.tokenizer.Tokenizer;
 import java.util.List;
 
 public class Interpreter {
